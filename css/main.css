@@ -11,7 +11,7 @@ height: 1024px;
 width: 768px;
 }
 
-div {
+.maindiv {
   height: 1024px;
   width: 768px;
 }
@@ -22,5 +22,9 @@ div {
 }
 
 img {
-  transform: scale(0.6, 0.6);
+  transform: scale(0.75, 0.75);
+}
+
+.first {
+  background-color: #F8F8F8;
 }
