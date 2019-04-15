@@ -16,15 +16,23 @@ width: 768px;
   width: 768px;
 }
 
+
+
 .eye {
   width: 640px;
   height: 900px;
 }
 
+/*
 img {
   transform: scale(0.75, 0.75);
-}
+}*/
+
 
 .first {
   background-color: #F8F8F8;
+}
+
+.smallimg {
+  transform: scale(0.6, 0.6);
 }
