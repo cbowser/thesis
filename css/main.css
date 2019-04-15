@@ -7,6 +7,8 @@
 
 body {
 font-family: 'Roboto', sans-serif;
+height: 1024px;
+width: 768px;
 }
 
 div {
@@ -14,28 +16,11 @@ div {
   width: 768px;
 }
 
-.first {
-
-}
-
-.second {
-}
-
-.third {
-    background-color: yellow;
-  }
-
-
-.fourth {
-  background-color: green;
-}
-
-.massive {
-  font-size: 150px;
-}
-
-
 .eye {
-  height:60px;
   width: 640px;
+  height: 900px;
+}
+
+img {
+  transform: scale(0.6, 0.6);
 }
