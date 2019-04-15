@@ -2,22 +2,44 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400');
 
-.first {
-  background-color: red;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900');
+
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+div {
   height: 1024px;
   width: 768px;
 }
 
+.first {
+
+}
+
 .second {
-  background-color: blue;
-  height: 1024px;
-  width: 768px;
+}
+
+.third {
+    background-color: yellow;
+  }
+
+
+.fourth {
+  background-color: green;
 }
 
 .massive {
   font-size: 150px;
 }
 
-img {
-  height: 300px;
+
+.eye {
+  height:60px;
+}
+
+.condo {
+  height:300px;
+  border: solid blue 10px; 
 }
