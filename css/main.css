@@ -29,10 +29,46 @@ img {
 }*/
 
 
-.first {
-  background-color: #EAF2E3;
-}
 
 .smallimg {
   transform: scale(0.6, 0.6);
+}
+
+
+
+
+/*Background COLORS*/
+
+.headerarea {
+  background-color: #EAF2E3;
+}
+
+
+.first {
+background-color: #FFEBEB;
+
+}
+
+.second {
+  background-color: #B9E4FC;
+}
+
+.third {
+  background-color: #FFF8D2;
+}
+
+.fourth {
+background-color: #D4FFEF;
+}
+
+.fifth {
+  background-color: #FFF8D2;
+}
+
+.sixth {
+  background-color: #FFEBEB;
+}
+
+.seventh {
+  background-color: #FFF8D2;
 }
