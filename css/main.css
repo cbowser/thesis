@@ -14,7 +14,15 @@ width: 768px;
 .maindiv {
   height: 1024px;
   width: 768px;
+  position: relative;
 }
+
+.largerdiv {
+  height: 2048px;
+  width: 768px;
+  position: relative;
+}
+
 
 
 
@@ -45,7 +53,7 @@ img {
 
 
 .first {
-background-color: #FFEBEB;
+
 
 }
 
@@ -69,6 +77,17 @@ background-color: #D4FFEF;
   background-color: #FFEBEB;
 }
 
+
+div.absolute {
+  position: absolute;
+  bottom: 20px;
+  right:384px;
+}
+
 .seventh {
   background-color: #FFF8D2;
+}
+
+.arrow {
+  transform: scale(0.5, 0.5);
 }
