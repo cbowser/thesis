@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700');
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900');
 
 
@@ -11,6 +10,17 @@ height: 1024px;
 width: 768px;
 }
 
+.robotomonobold {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+}
+
+.robotomono
+{
+  font-family: 'Roboto Mono', monospace;
+font-weight: 400;
+}
+
 .maindiv {
   height: 1024px;
   width: 768px;
@@ -18,7 +28,6 @@ width: 768px;
 }
 
 .largerdiv {
-  height: 2048px;
   width: 768px;
   position: relative;
 }
@@ -42,6 +51,9 @@ img {
   transform: scale(0.6, 0.6);
 }
 
+.largeimg {
+  transform: scale(2, 2);
+}
 
 
 
@@ -52,10 +64,6 @@ img {
 }
 
 
-.first {
-
-
-}
 
 .second {
   background-color: #B9E4FC;
