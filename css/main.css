@@ -8,6 +8,7 @@ body {
 font-family: 'Roboto', sans-serif;
 height: 1024px;
 width: 768px;
+background: #f1f1f2;
 }
 
 .robotomonobold {
@@ -19,6 +20,11 @@ width: 768px;
 {
   font-family: 'Roboto Mono', monospace;
 font-weight: 400;
+}
+
+.robotonormal {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 .maindiv {
@@ -48,7 +54,7 @@ img {
 
 
 .smallimg {
-  transform: scale(0.6, 0.6);
+  transform: scale(0.4, 0.4);
 }
 
 .largeimg {
@@ -60,13 +66,13 @@ img {
 /*Background COLORS*/
 
 .headerarea {
-  background-color: #EAF2E3;
+  background-color: #f1f1f2;
 }
 
 
 
 .second {
-  background-color: #B9E4FC;
+  background-color: #e6e7e8;
 }
 
 .third {
@@ -98,4 +104,61 @@ div.absolute {
 
 .arrow {
   transform: scale(0.5, 0.5);
+}
+
+
+
+.peeps {
+  border: 5px solid black;
+}
+
+
+
+
+
+main {
+  max-width: 800px;
+  padding: 40px;
+  background: #f1f1f2;
+}
+
+section {
+  display: none;
+  border-top: 5px solid #0099ff;
+  background-color: white;
+  padding: 40px;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  border: 1px solid transparent;
+}
+
+
+
+label:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: white;
+  font-weight: lighter;
+  background-color: #0099ff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
 }
