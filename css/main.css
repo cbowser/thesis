@@ -61,15 +61,10 @@ img {
   transform: scale(2, 2);
 }
 
-
-
 /*Background COLORS*/
-
 .headerarea {
   background-color: #f1f1f2;
 }
-
-
 
 .second {
   background-color: #e6e7e8;
@@ -91,7 +86,6 @@ background-color: #D4FFEF;
   background-color: #FFEBEB;
 }
 
-
 div.absolute {
   position: absolute;
   bottom: 20px;
@@ -106,19 +100,13 @@ div.absolute {
   transform: scale(0.5, 0.5);
 }
 
-
-
 .peeps {
   border: 5px solid black;
 }
 
-
 .highlights {
   background-color: #ffef5c;
 }
-
-
-
 
 main {
   max-width: 800px;
@@ -146,8 +134,6 @@ label {
   color: black;
   border: 1px solid transparent;
 }
-
-
 
 label:hover {
   color: gray;
