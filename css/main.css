@@ -54,7 +54,7 @@ img {
 
 
 .smallimg {
-  transform: scale(0.4, 0.4);
+  transform: scale(0.3, 0.3);
 }
 
 .largeimg {
@@ -112,6 +112,10 @@ div.absolute {
   border: 5px solid black;
 }
 
+
+.highlights {
+  background-color: #ffef5c;
+}
 
 
 
